@@ -3,3 +3,11 @@ html, body{
     margin: 0;
     scroll-behavior: smooth;
 }
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block !important;
+}
+.carousel-item>img{
+    max-height: 500px;
+}
+
